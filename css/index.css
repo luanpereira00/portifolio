@@ -1,7 +1,12 @@
-body{
+html, body{
 	text-align: center;
-	background-color: gray; 
+	background-color: white; 
+	font-family: "Palatino", sans-serif;
+	vertical-align: bottom;
+	margin:0;
+    padding:0;
 }
+
 
 #menu{
 	position: fixed; /* Set the navbar to fixed position */
@@ -34,18 +39,9 @@ li a:hover.menu {
 }
 
 #descricao{
-	background-color: orange;
+	background-color: #FFA50099;
 	text-align: center;
 	vertical-align: middle;
-	
-}
-
-#brief{
-	line-height: 30px; 
-	width: 600px;
-	margin-left: auto;
-    margin-right: auto;
-    width: 42em
 }
 
 #foto-perfil {
@@ -55,7 +51,7 @@ li a:hover.menu {
 }
 
 #experiencias{
-	background-color: #FF6644;
+	background-color: #FF6644CC;
 	text-align: center;
 	vertical-align: middle;	
 }
@@ -64,4 +60,29 @@ li a:hover.menu {
     border-radius: 50%;
     height: 150px;
     width: 150px;
+}
+
+#sites{
+
+	background-color: #33FF22AA;
+	text-align: center;
+	vertical-align: middle;	
+	
+}
+
+#contatos{
+	background-color: #6633FFAA;
+	text-align: center;
+	vertical-align: middle;	
+	
+}
+
+.internal{
+	padding-top: 30px;
+	line-height: 30px; 
+	width: 600px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 75%
+
 }
